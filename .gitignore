@@ -1,6 +1,10 @@
 # compiled output
-/dist
-/node_modules
+dist/
+.idea/
+.vscode/
+node_modules/
+tmp/
+temp/
 
 # Logs
 logs
