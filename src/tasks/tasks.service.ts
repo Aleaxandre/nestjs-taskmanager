@@ -6,7 +6,7 @@ import { Repository } from 'typeorm';
 
 @Injectable()
 export class TasksService extends TypeOrmCrudService<Task> {
-    constructor(@InjectRepository(Task) repo: Repository<Task>) {
-        super(repo);
-    }
+  constructor(@InjectRepository(Task) repo: Repository<Task>) {
+    super(repo);
+  }
 }
